@@ -8,15 +8,13 @@ To write a program to predict the type of species of the Iris flower using the S
 
 ## Algorithm
 
-1. Load Data: Load the Iris dataset using load_iris() and create a pandas DataFrame with the feature names and target variable.
-
-2. Prepare Features and Target: Split the DataFrame into features (X) and target (y) by dropping the target column from X.
-
-3. Split Data: Use train_test_split to divide the dataset into training and testing sets with a test size of 20%.
-
-4. Train Model: Initialize and fit a Stochastic Gradient Descent (SGD) classifier on the training data.
-
-5. Evaluate Model: Predict the target values for the test set, calculate accuracy, and print the confusion matrix to assess the model's performance.
+1. Load the Iris dataset and create a DataFrame with feature names and target labels.
+2. Separate the data into features (`X`) and target (`y`).
+3. Split the data into training and testing sets with an 80-20 ratio.
+4. Initialize a Stochastic Gradient Descent (SGD) classifier and train it on the training data.
+5. Predict the target values for the test set.
+6. Calculate and display the model's accuracy.
+7. Compute and display the confusion matrix for the predictions.
 
 ## Program:
 ```
